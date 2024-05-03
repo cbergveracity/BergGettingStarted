@@ -5,6 +5,7 @@ import './Banner';
 import './Breadcrumbs';
 import './Button';
 import './CallToAction';
+import './VideoPlayer';
 import './Card';
 import './CardBlock';
 import './Carousel';
@@ -103,3 +104,6 @@ export { default as RichText } from './RichText';
 
 export { default as Video } from './Video';
 export type { VideoProps } from './Video';
+
+export { default as VideoPlayer } from './VideoPlayer';
+export type { VideoPlayerProps } from './VideoPlayer';
