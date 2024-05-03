@@ -23,9 +23,9 @@ export const VideoPlayer: FC<VideoPlayerProps> = ({ title, description, source, 
               height="315"
               src={`https://www.youtube.com/embed/${id}`}
               title="YouTube video player"
-              frameborder="0"
+              frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
+              allowFullScreen
             ></iframe>
           )}
           {source === 'Loom' && (
@@ -33,10 +33,10 @@ export const VideoPlayer: FC<VideoPlayerProps> = ({ title, description, source, 
               width="640"
               height="360"
               src={`https://www.loom.com/embed/${id}`}
-              frameborder="0"
+              frameBorder="0"
               webkitallowfullscreen
               mozallowfullscreen
-              allowfullscreen
+              allowFullScreen
             ></iframe>
           )}
           {!source && <div className=" text-gray-300">Select a video source</div>}
